@@ -18,20 +18,61 @@ header ul li {
 
 }
 
-header ul li:hover{
-  background-color: aqua;
+header ul li span {
+  padding: 5px;
+}
+
+header ul li span:hover{
+  background-color: rgba(0, 255, 255, 0.418);
   transition: ease 0.3s;
 }
 
 .title {
   padding: 10px;
-  font-size: 40px;
+  font-size: 50px;
   text-decoration: underline;
 }
 
+.to-do-list > * {
+  margin: 10px;
+}
+
 .to-do-list {
+  font-size: 20px;
   border: black solid 2px;
   margin: 20px;
-  padding: 50px;
+  padding: 20px;
   border-radius: 30px;
+}
+
+.to-do-list ul {
+  list-style: square;
+  padding-left: 50px;
+}
+
+.to-do-list ul li:hover {
+  text-decoration: underline;
+}
+
+input {
+  font-size: 20px;
+  padding: 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border: black solid 1px;
+  text-align: right;
+}
+
+address {
+  float: left;
+  margin: 5px;
+}
+
+img {
+  height: 50px;
+  margin: 5px;
 }
