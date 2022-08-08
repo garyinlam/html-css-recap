@@ -79,3 +79,8 @@ img {
   height: 50px;
   margin: 5px 20px 5px 5px;
 }
+
+.todo-item {
+  font-weight: bold;
+  margin: 10px 0;
+}
