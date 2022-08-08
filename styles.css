@@ -27,10 +27,12 @@ header ul li span:hover{
   transition: ease 0.3s;
 }
 
+
 .title {
   padding: 10px;
   font-size: 50px;
   text-decoration: underline;
+  text-align: center;
 }
 
 .to-do-list > * {
@@ -63,8 +65,9 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  border: black solid 1px;
+  border-top: black solid 1px;
   text-align: right;
+  background-color: blanchedalmond;
 }
 
 address {
