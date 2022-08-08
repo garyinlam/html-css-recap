@@ -69,10 +69,10 @@ footer {
 
 address {
   float: left;
-  margin: 5px;
+  margin: 20px 5px 5px 15px;
 }
 
 img {
   height: 50px;
-  margin: 5px;
+  margin: 5px 20px 5px 5px;
 }
